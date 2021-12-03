@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="choices">
+            <p>Wie viel Runden ?</p>
+            <select name="" id="rounds">
+                <option value="5">5 Runden</option>
+                <option value="10">10 Runden</option>
+                <option value="15">15 Runden</option>
+                <option value="20">20 Runden</option>
+            </select>
+        </div>
+        <div id="results">
+            <div>
+                <label for="">User</label>
+                <p id="resultsUser">0</p>
+            </div>
+            <div>
+                <label for="">Computer</label>
+                <p id="resultsComp">0</p>
+                
+            </div>
+         </div>
+         <div id="resultsUserImg">
+            <img src="assets/img/rock.png" alt="">
+            <p id="resultsUserImgPoints">Who wins ?</p>
+        </div>
+       <div id="buttons">
+        <img onclick="enter(0)" src="assets/img/rock.png" alt="">
+        <img onclick="enter(1)" src="assets/img/paper.png" alt="">
+        <img onclick="enter(2)" src="assets/img/scissors.png" alt="">
+    </div>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
