@@ -1,51 +1,77 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     text-align: center;
     font-size: 2rem;
+    margin: 0 auto;
+    width: 1440px;
 }
 
-#container{
+p {
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 0 0 10px white;
+}
+
+label {
+    color: white;
+}
+
+#container {
     width: 550px;
-    height: 750px;
-    border: 1px solid black;
+    height: 670px;
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 10px;
+    background: url(/assets/img/jakob-rosen-NAEWtz6m9D0-unsplash.jpg);
+    background-size: cover;
 }
-#choices{
-    border-bottom: 1px solid black;
+
+#choices {
     padding: 30px;
-   
 }
-#rounds{
+
+#rounds {
     width: 150px;
     margin: 0 auto;
 }
-#results{
+
+#results {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-    height:150px;
-    padding: 0 0 80px 0;
+    height: 150px;
+    padding: 0 0 0px 0;
 }
 
 #resultsUserImg {
     padding-bottom: 50px;
-   
 }
-#resultsUserImg img{
+
+#resultsUserImg img {
     padding-bottom: 50px;
-   
 }
-#buttons{
+
+#buttons {
     display: flex;
     justify-content: space-evenly;
     border-top: 1px solid black;
-    padding: 30px 0 0 0;
+    border-bottom: 5px solid black;
+    border-radius: 10px;
+    padding: 30px 0 10px 0;
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(255, 255, 255, 0.9));
 }
-img{
+
+img {
     width: 85px;
     height: 55px;
-    
+}
+
+h3 {
+    border-bottom: 1px solid black;
+    background: linear-gradient(rgb(255, 255, 255, 0.6), rgb(0, 0, 0, 0.7));
+    color: white;
+    padding: 0 0 10px 0;
 }
