@@ -25,7 +25,7 @@ label {
     height: 670px;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 10px;
-    background: url(../img/jakob-rosen-NAEWtz6m9D0-unsplash.jpg);
+    background: url("../img/jakob-rosen-NAEWtz6m9D0-unsplash.jpg");
     background-size: cover;
 }
 
