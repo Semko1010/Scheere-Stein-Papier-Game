@@ -56,7 +56,7 @@ function enter(a) {
         buttons.style.display = "none"
         buttons1.style.display = "block"
         if(resultUser<resultComp){
-            resultsUserImgPoints.innerHTML="Computer Wins";
+            resultsUserImgPoints.innerHTML="Cpu Wins";
             resultsUserImgPoints.style.color="red";
         }if(resultUser>resultComp){
             resultsUserImgPoints.innerHTML="User Wins";

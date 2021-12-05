@@ -22,7 +22,7 @@ label {
 
 #container {
     width: 550px;
-    height: 670px;
+    height: 700px;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 10px;
     background: url("../../assets/img/jakob-rosen-NAEWtz6m9D0-unsplash\ \(1\).jpg");
@@ -46,29 +46,21 @@ label {
    
 }
 
-#resultsUserImg {
-    
-    
-}
+
 #resultsUserImgPoints{
     border: 2px solid white;
     width: 250px;
-    position: absolute;
-    left: 150px;
     border-radius: 10px;
     background-color:rgb(0, 0, 0,0.7);
-    margin: 0 auto;
+    margin: 0 auto 80px auto;
     text-shadow: 0 0 40px white;
     
 }
 #resultsUserImg1{
-    padding-bottom:60px;
+    margin-bottom:60px;
     width: 150px;
     height:90px;
 }
-
-
-
 #buttons {
     display: flex;
     justify-content: space-evenly;
@@ -76,7 +68,7 @@ label {
     border-bottom: 5px solid black;
     border-radius: 10px;
     padding: 30px 0 10px 0;
-    margin-top: 100px;
+    margin-top: 0px;
     background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(255, 255, 255, 0.9));
   
 }
@@ -89,7 +81,7 @@ label {
     border-bottom: 5px solid black;
     border-radius: 10px;
     padding: 30px 0 10px 0;
-    margin-top: 100px;
+    margin-top: 0px;
     background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(255, 255, 255, 0.9));
     font-size: 2rem;
     text-shadow: 0 0 20px black;
