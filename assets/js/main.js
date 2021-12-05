@@ -61,7 +61,7 @@ function enter(a) {
         }if(resultUser>resultComp){
             resultsUserImgPoints.innerHTML="User Wins";
             resultsUserImgPoints.style.color="green";
-        }else{
+        }if(resultUser==resultComp){
             resultsUserImgPoints.innerHTML="Draw";
         }
     }
